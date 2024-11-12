@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dnyc2d4jdo6ri"]
+
+[ext_resource type="PackedScene" uid="uid://b2hi3poum74ge" path="res://characters/mrs-love/mrs_love.tscn" id="1_4n1xb"]
+
+[node name="Main" type="Node2D"]
+
+[node name="MrsLove" parent="." instance=ExtResource("1_4n1xb")]
+position = Vector2(624, 308)

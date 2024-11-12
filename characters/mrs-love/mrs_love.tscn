@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://b2hi3poum74ge"]
+[gd_scene load_steps=4 format=3 uid="uid://b2hi3poum74ge"]
 
 [ext_resource type="Texture2D" uid="uid://cx0ngjwxo84ap" path="res://characters/mrs-love/mrs-love-bad-scan.png" id="1_l46sa"]
+[ext_resource type="Script" path="res://characters/mrs-love/mrs_love.gd" id="1_t1qj6"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_3qfit"]
 radius = 50.0
@@ -8,6 +9,7 @@ height = 198.0
 
 [node name="MrsLove" type="CharacterBody2D"]
 motion_mode = 1
+script = ExtResource("1_t1qj6")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_l46sa")
